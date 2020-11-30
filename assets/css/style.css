@@ -98,6 +98,11 @@
      font: 100 28px "PT Sans", sans-serif;
      margin: 20px 0 90px;
 }
+
+ .list-inline-item {
+     padding: 5px 0;
+ }
+
  .list-inline-item:not(:last-child) {
      margin: 0;
 }
