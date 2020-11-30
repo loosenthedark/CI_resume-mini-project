@@ -1,122 +1,90 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=PT+Sans:wght@400;700&display=swap');
 
-* {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
 
+ * {
+     border: 0;
+     margin: 0;
+     padding: 0;
+}
 /* -------------------- Colours -------------------- */
-
-.bg-color-name-title {
-    background: #676767;
+ .bg-color-name-title {
+     background: #676767;
 }
-
-.ui-menu-color-home {
-    background: #e67e22;
+ .ui-menu-color-home {
+     background: #e67e22;
 }
-
-.bg-color-work-history,
-.ui-menu-color-cv {
-    background: #9b59b6;
+ .bg-color-work-history, .ui-menu-color-cv {
+     background: #9b59b6;
 }
-
-.ui-menu-color-contact {
-    background: #3498db;
+ .ui-menu-color-contact {
+     background: #3498db;
 }
-
-.ui-menu-color-interests {
-    background: limegreen;
+ .ui-menu-color-interests {
+     background: limegreen;
 }
-
-.ui-menu-color-github {
-    background: #1c4a6c;
+ .ui-menu-color-github {
+     background: #1c4a6c;
 }
-
-.ui-menu-color-download {
-    background: goldenrod;
+ .ui-menu-color-download {
+     background: goldenrod;
 }
-
-.bg-color-personal-info {
-    background: #f4f4f4;
+ .bg-color-personal-info {
+     background: #f4f4f4;
 }
-
-.bg-color-three-reasons,
-.bg-color-my-skills,
-.bg-color-contact {
-    background: #fff;
+ .bg-color-three-reasons, .bg-color-my-skills, .bg-color-contact {
+     background: #fff;
 }
-
-.bg-color-work-history {
-    color: #fff;
+ .bg-color-work-history {
+     color: #fff;
 }
-
 /* -------------------- Hover.css -------------------- */
-
-.hvr-back-pulse {
-    font-size: 14px;
+ .hvr-back-pulse {
+     font-size: 14px;
 }
-
-.hvr-back-pulse:active,
-.hvr-back-pulse:focus,
-.hvr-back-pulse:hover {
-    background: rgba(0, 0, 0, 0.25);
+ .hvr-back-pulse:active, .hvr-back-pulse:focus, .hvr-back-pulse:hover {
+     background: rgba(0, 0, 0, 0.25);
 }
-
-@keyframes hvr-back-pulse {
-    50% {
-        opacity: 0.65;
-        transform: scale(1.2); 
+ @keyframes hvr-back-pulse {
+     50% {
+         opacity: 0.65;
+         transform: scale(1.2);
     }
 }
-
 /* -------------------- special paddings/margins/utility classes/text -------------------- */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
+ h1, h2, h3, h4, h5, h6 {
+     margin: 0;
 }
-
-.uppercase {
-    text-transform: uppercase;
+ .uppercase {
+     text-transform: uppercase;
 }
-
-.general-sub {
-    font: 400 1.25rem Exo, sans-serif;
-    margin: 4px 0 6px;
+ .general-sub {
+     font: 400 1.25rem Exo, sans-serif;
+     margin: 4px 0 6px;
 }
-
-.inline-block {
-    display: inline-block;
-    margin: 0 0 26px;
+ .inline-block {
+     display: inline-block;
+     margin: 0 0 26px;
 }
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px 35px;
-    float: none;
+ .section-column {
+     display: table-cell;
+     padding: 0 30px 30px 35px;
+     float: none;
 }
-
-.section-heading {
-    font-family: Exo, sans-serif;
-    margin: 60px 0;
-    text-align: center;
+ .section-heading {
+     font-family: Exo, sans-serif;
+     margin: 60px 0;
+     text-align: center;
 }
-
 /* -------------------- Header -------------------- */
-
-.logo {
-    background: url("../img/profiler.jpg") center/cover no-repeat;
-    min-height: 360px;
-    padding: 0;
-    transition: all .5s ease-in-out;
+ .logo {
+     background: url("../img/profiler.jpg") center/cover no-repeat;
+     min-height: 360px;
+     padding: 0;
+     transition: all .5s ease-in-out;
 }
-
-.heading {
+ .heading {
      margin: 0 0 0 50px;
 }
  .name, .title {
@@ -130,425 +98,353 @@ h6 {
      font: 100 28px "PT Sans", sans-serif;
      margin: 20px 0 90px;
 }
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
+ .list-inline-item:not(:last-child) {
+     margin: 0;
 }
-
-.menucontainer {
-    font-size: 0;
+ .menucontainer {
+     font-size: 0;
 }
-
-#nav {
-    margin: 0;
+ #nav {
+     margin: 0;
 }
-
-#nav li {
-    font-size: initial;
-    padding: 0;
+ #nav li {
+     font-size: initial;
+     padding: 0;
 }
-
-.menuitem,
-.menuitem a {
-    height: 120px;
+ .menuitem, .menuitem a {
+     height: 120px;
 }
-
-.menuitem {
-    padding: 0;
-    text-align: center;
-    text-transform: uppercase;
-    overflow: hidden;
+ .menuitem {
+     padding: 0;
+     text-align: center;
+     text-transform: uppercase;
+     overflow: hidden;
 }
-
-.menuitem a,
-.menuitem a i {
-    display: block;
+ .menuitem a, .menuitem a i {
+     display: block;
 }
-
-.menuitem a {
-    color: #fff;
-    text-decoration: none;
-    width: 100%;
+ .menuitem a {
+     color: #fff;
+     text-decoration: none;
+     width: 100%;
 }
-
-.menuitem a i {
-    color: #fafafa;
-    font-size: 26px;
-    padding: 30px 0 0;
+ .menuitem a i {
+     color: #fafafa;
+     font-size: 26px;
+     padding: 30px 0 0;
 }
-
-.menuitem span {
-    display: block;
-    font-weight: 300;
-    letter-spacing: 2px;
-    padding: 5px 0 0;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
+ .menuitem span {
+     display: block;
+     font-weight: 300;
+     letter-spacing: 2px;
+     padding: 5px 0 0;
+     text-align: center;
+     text-transform: uppercase;
+     width: 100%;
 }
-
 /* -------------------- Personal Info sidebar -------------------- */
-
-.key,
-.value {
-    padding: 0 15px 0 0;
+ .key, .value {
+     padding: 0 15px 0 0;
 }
-
-.key {
-    font-weight: 700;
+ .key {
+     font-weight: 700;
 }
-
-.personal-info-item {
-    margin: 0 0 20px;
+ .personal-info-item {
+     margin: 0 0 20px;
 }
-
 /* -------------------- Work History timeline sidebar -------------------- */
-
-.timeline {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
+ .timeline {
+     position: relative;
+     max-width: 800px;
+     margin: 0 auto;
 }
-
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 2px;
-  background-color: white;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  margin-left: -1px;
+ .timeline::after {
+     content: '';
+     position: absolute;
+     width: 2px;
+     background-color: white;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     margin-left: -1px;
 }
-
-.c0ntainer {
-  padding: 20px 10px 20px 30px;
-  position: relative;
-  background-color: inherit;
-  width: 100%;
-  left: 0;
+ .c0ntainer {
+     padding: 20px 10px 20px 30px;
+     position: relative;
+     background-color: inherit;
+     width: 100%;
+     left: 0;
 }
-
-.c0ntainer::after {
-  content: '';
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  left: -8px;
-  background-color: white;
-  border: 4px solid #fff;
-  top: 40px;
-  border-radius: 50%;
-  z-index: 1;
+ .c0ntainer::after {
+     content: '';
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     left: -8px;
+     background-color: white;
+     border: 4px solid #fff;
+     top: 40px;
+     border-radius: 50%;
+     z-index: 1;
 }
-
-.c0ntainer::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 38px;
-  width: 0;
-  z-index: 1;
-  left: 20px;
-  border: medium solid #804399;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #804399 transparent transparent;
+ .c0ntainer::before {
+     content: " ";
+     height: 0;
+     position: absolute;
+     top: 38px;
+     width: 0;
+     z-index: 1;
+     left: 20px;
+     border: medium solid #804399;
+     border-width: 10px 10px 10px 0;
+     border-color: transparent #804399 transparent transparent;
 }
-
-#work-history-heading {
-    margin: 60px 0 40px;
-  }
-
-.content {
-  padding: 20px 30px;
-  background-color: #804399;
-  position: relative;
-  border-radius: 6px;
+ #work-history-heading {
+     margin: 60px 0 40px;
 }
-
-#timeline-column {
-    padding: 0 20px 60px;
+ .content {
+     padding: 20px 30px;
+     background-color: #804399;
+     position: relative;
+     border-radius: 6px;
 }
-
-.time-period,
-.job-title {
-    margin: 0 0 6px;
+ #timeline-column {
+     padding: 0 20px 60px;
 }
-
-.time-period {
-    font-size: 14px;
-    font-weight: 100;
-    line-height: 14px;
+ .time-period, .job-title {
+     margin: 0 0 6px;
 }
-
-.company {
-    margin: 0 0 10px;
-    font-size: 26px;
-    line-height: 1.1;
-    font-weight: 400;
+ .time-period {
+     font-size: 14px;
+     font-weight: 100;
+     line-height: 14px;
 }
-
-.job-title {
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: 300;
+ .company {
+     margin: 0 0 10px;
+     font-size: 26px;
+     line-height: 1.1;
+     font-weight: 400;
 }
-
+ .job-title {
+     font-size: 14px;
+     line-height: 14px;
+     font-weight: 300;
+}
 /* -------------------- Three Reasons section -------------------- */
-
-.three-reasons-icon,
-.my-skills-icon {
-    color: #e67e22;
-    font-size: 26px;
+ .three-reasons-icon, .my-skills-icon {
+     color: #e67e22;
+     font-size: 26px;
 }
-
-.three-reasons-heading {
-    margin: 0 0 15px;
+ .three-reasons-heading {
+     margin: 0 0 15px;
 }
-
 /* -------------------- Skills section -------------------- */
-
-.skills-row {
-    margin: 0 0 80px;
+ .skills-row {
+     margin: 0 0 80px;
 }
-
-.progress {
-    height: 36px;
-    margin: 0 0 8px;
+ .progress {
+     height: 36px;
+     margin: 0 0 8px;
 }
-
-.progress-bar {
-    position: relative;
-    border-radius: 0 2px 2px 0;
+ .progress-bar {
+     position: relative;
+     border-radius: 0 2px 2px 0;
 }
-
-.progress-label {
-    background: rgba(40, 40, 40, 0.2);
-    height: 100%;
-    line-height: 36px;
-    position: absolute;
-    padding: 0 50px 0 20px;
+ .progress-label {
+     background: rgba(40, 40, 40, 0.2);
+     height: 100%;
+     line-height: 36px;
+     position: absolute;
+     padding: 0 50px 0 20px;
 }
-
-#html,
-#js,
-#mongodb {
-    width: 80%;
+ #html, #js, #mongodb {
+     width: 80%;
 }
-
-#css {
-    width: 90%;
+ #css {
+     width: 90%;
 }
-
-#python,
-#sql {
-    width: 70%;
+ #python, #sql {
+     width: 70%;
 }
-
-#django {
-    width: 60%;
-    background: rgb(247, 95, 214);
+ #django {
+     width: 60%;
+     background: rgb(247, 95, 214);
 }
-
 /* -------------------- Contact form -------------------- */
-
-form {
-    max-width: 450px;
-    margin: 0 auto;
+ form {
+     max-width: 450px;
+     margin: 0 auto;
 }
-
-.project-heading {
-    padding: 0 7px;
+ .project-heading {
+     padding: 0 7px;
 }
-
-#contact-heading {
-    margin: 60px 0 20px;
+ #contact-heading {
+     margin: 60px 0 20px;
 }
-
-#contact-subheading {
-    font-size: 22px;
-    margin: 0 0 40px;
+ #contact-subheading {
+     font-size: 22px;
+     margin: 0 0 40px;
 }
-
-.btn {
-    display: block;
-    margin: 0 auto;
-    height: 42px;
+ .btn {
+     display: block;
+     margin: 0 auto;
+     height: 42px;
 }
-
-.form-group {
-    margin: 0 0 1.3rem;
+ .form-group {
+     margin: 0 0 1.3rem;
 }
-
-.form-control {
-    border: 1px solid #8f8f8f;
+ .form-control {
+     border: 1px solid #8f8f8f;
 }
-
-#exampleFormControlTextarea {
-    margin: 0 0 2.2rem;
+ #exampleFormControlTextarea {
+     margin: 0 0 2.2rem;
 }
-
-.contact-row {
-    margin: 0 0 30px;
+ .contact-row {
+     margin: 0 0 30px;
 }
-
-textarea {
-    min-height: 260px;
+ textarea {
+     min-height: 260px;
 }
-
 /* -------------------- Footer -------------------- */
-
-footer {
-    background: #525252;
-    color: #fafafa;
-    min-height: 120px;
+ footer {
+     background: #525252;
+     color: #fafafa;
+     min-height: 120px;
 }
-
-#cv-pdf i {
-    color: #fafafa;
-    font-size: 18px;
-    padding: 0 0 0 5px;
-    text-align: center;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+ #cv-pdf i {
+     color: #fafafa;
+     font-size: 18px;
+     padding: 0 0 0 5px;
+     text-align: center;
+     transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -webkit-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
 }
-
-#cv-pdf i:hover {
-    color: #e84610;
-    transform: scale(1.35);
+ #cv-pdf i:hover {
+     color: #e84610;
+     transform: scale(1.35);
 }
-
-#social-links {
-    padding: 0 0 15px;
+ #social-links {
+     padding: 0 0 15px;
 }
-
-#social-links li a i {
-    background: #8f8f8f;
-    border-radius: 50%;
-    color: #fafafa;
-    font-size: 13px;
-    height: 32px;
-    line-height: 7px;
-    padding: 12px 0;
-    text-align: center;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    width: 32px;
+ #social-links li a i {
+     background: #8f8f8f;
+     border-radius: 50%;
+     color: #fafafa;
+     font-size: 13px;
+     height: 32px;
+     line-height: 7px;
+     padding: 12px 0;
+     text-align: center;
+     transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -webkit-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
+     width: 32px;
 }
-
-#social-links li:not(:last-child) a i {
-    margin: 0 4px 0 0;
+ #social-links li:not(:last-child) a i {
+     margin: 0 4px 0 0;
 }
-
-#social-links li a i:hover {
-    background: #e84610;
-    transform: scale(1.35);
+ #social-links li a i:hover {
+     background: #e84610;
+     transform: scale(1.35);
 }
-
-#footer-details {
-    padding: 20px;
+ #footer-details {
+     padding: 20px;
 }
-
 /* -------------------- >>>>> Media Queries >>>>> -------------------- */
-
-@media screen and (max-width: 991px) {
-  .c0ntainer {
-      padding: 0 0 30px 22px;
-  }
-  .c0ntainer::before {
-      left: 12px;
-  }
-  #top-container {
-      padding: 20px 0 30px 22px;
-  }
-  .content {
-      padding: 18px 18px;
-  }
-  #skills-heading {
-      margin: 60px 0 93px;
-  }
-  .skills-row {
-      margin: 0 0 60px;
-  }
-  #work-history-heading {
-      padding: 0 20px;
-  }
-  .time-period,
-  .job-title {
-    margin: 0 0 8px;
-  }
-  .company {
-      margin: 0 0 12px;
-  }
-  .time-period {
-      font-size: 12px;
-      line-height: 12px;
-  }
-  .company {
-      font-size: 22px;
-      line-height: 1;
-  }
-  .job-title {
-      font-size: 13px;
-      line-height: 13px;
-  }
-  textarea {
-      min-height: 240px;
-  }
+ @media screen and (max-width: 991px) {
+     .c0ntainer {
+         padding: 0 0 30px 22px;
+    }
+     .c0ntainer::before {
+         left: 12px;
+    }
+     #top-container {
+         padding: 20px 0 30px 22px;
+    }
+     .content {
+         padding: 18px 18px;
+    }
+     #skills-heading {
+         margin: 60px 0 93px;
+    }
+     .skills-row {
+         margin: 0 0 60px;
+    }
+     #work-history-heading {
+         padding: 0 20px;
+    }
+     .time-period, .job-title {
+         margin: 0 0 8px;
+    }
+     .company {
+         margin: 0 0 12px;
+    }
+     .time-period {
+         font-size: 12px;
+         line-height: 12px;
+    }
+     .company {
+         font-size: 22px;
+         line-height: 1;
+    }
+     .job-title {
+         font-size: 13px;
+         line-height: 13px;
+    }
+     textarea {
+         min-height: 240px;
+    }
 }
-
-@media screen and (max-width: 767px) {
-  .c0ntainer {
-      width: 70%;
-      margin: 0 auto;
-  }
-  .timeline::after {
-      left: 15%;
-  }
-  .content {
-      padding: 20px 20px 20px 15%;
-  }
-  #skills-heading {
-      margin: 60px 0 60px;
-  }
-  .skills-row {
-    margin: 0 0 40px;
+ @media screen and (max-width: 767px) {
+     .c0ntainer {
+         width: 70%;
+         margin: 0 auto;
+    }
+     .timeline::after {
+         left: 15%;
+    }
+     .content {
+         padding: 20px 20px 20px 15%;
+    }
+     #skills-heading {
+         margin: 60px 0 60px;
+    }
+     .skills-row {
+         margin: 0 0 40px;
+    }
+     textarea {
+         min-height: initial;
+    }
 }
-textarea {
-      min-height: initial;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .c0ntainer {
-      width: 90%;
-  }
-  .timeline::after {
-      left: 5%;
-  }
-  .content {
-      min-height: 154px;
-      padding: 24px 10%;
-  }
-  .company {
-      font-size: 24px;
-  }
-  .time-period {
-      font-size: 14px;
-      line-height: 14px;
-  }
-  .job-title {
-      font-size: 16px;
-      line-height: 16px;
-  }
-  .progress {
-      margin: 0 0 10px;
-  }
-  #progress-column {
-      padding: 0 23px;
-  }
+ @media screen and (max-width: 575px) {
+     .c0ntainer {
+         width: 90%;
+    }
+     .timeline::after {
+         left: 5%;
+    }
+     .content {
+         min-height: 154px;
+         padding: 24px 10%;
+    }
+     .company {
+         font-size: 24px;
+    }
+     .time-period {
+         font-size: 14px;
+         line-height: 14px;
+    }
+     .job-title {
+         font-size: 16px;
+         line-height: 16px;
+    }
+     .progress {
+         margin: 0 0 10px;
+    }
+     #progress-column {
+         padding: 0 23px;
+    }
 }
