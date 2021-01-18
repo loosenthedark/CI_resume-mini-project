@@ -310,6 +310,13 @@
  textarea {
      min-height: 260px;
 }
+
+/* -------------------- Google Maps container div -------------------- */
+
+div#map {
+    min-height: 360px;
+}
+
 /* -------------------- Footer -------------------- */
  footer {
      background: #525252;
