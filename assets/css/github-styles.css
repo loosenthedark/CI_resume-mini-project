@@ -49,6 +49,12 @@ a:hover {
     margin-left: 26%;
 }
 
+#gh-user-data img#avatar-img {
+    width: 100px;
+    height: 100px;
+    margin-left: unset;
+}
+
 .gh-alert {
     color: #f00;
 }
