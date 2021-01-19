@@ -50,7 +50,7 @@ function fetchGitHubInfo(event) {
                 $('#gh-user-data').html(`<h5>No info found for user ${username}!</h5>`);
             } else if (errorResponse.status === 403) {
                 var resetTime = new Date(errorResponse.getResponseHeader('X-RateLimit-Reset') * 1000);
-                $('#gh-user-data').html(`<h5>Too many API requests! Please wait until ${resetTime.toLocaleDateString()} before trying again.</h5>`);
+                $('#gh-user-data').addClass('gh-alert').html(`<h5>Too many API requests! <br>Please wait until ${resetTime.toLocaleTimeString()} before trying again.</h5>`);
             } else {
                 $('#gh-user-data').html(`<h5>Error: ${errorResponse.responseJSON.message}!</h5>`);
             }

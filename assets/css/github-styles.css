@@ -45,7 +45,8 @@ a:hover {
 }
 
 #gh-user-data img {
-    max-height: 150px;
+    width: 48%;
+    margin-left: 26%;
 }
 
 .gh-alert {
