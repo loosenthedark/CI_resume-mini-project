@@ -1,0 +1,44 @@
+a:hover {
+    text-decoration: none;
+}
+
+.small-name {
+    font-size: 0.75em;
+    color: #a9a9a9;
+    font-style: italic;
+}
+
+#gh-username {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.gh-content {
+    color: #a9a9a9;
+    text-align: center;
+}
+
+.gh-avatar {
+    padding: 6px 0;
+}
+
+#gh-user-data {
+    margin-top: 15px;
+}
+
+#gh-user-data h5 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#gh-user-data img {
+    max-height: 150px;
+}
+
+.gh-alert {
+    color: #f00;
+}
+
+#gh-user-data.gh-alert h5 {
+    font-size: 1.75em;;
+}
